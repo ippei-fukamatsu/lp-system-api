@@ -26,6 +26,13 @@ functions:
       - http:
           path: hello
           method: get
+  app:
+    handler: src/handlers/samples/samples.handler
+    events:
+      - http:
+          path: /{proxy+}
+          method: any
+          cors: ${self:custom.cors_enabled.${opt:stage, self:provider.stage}}
 
 resources:
   Resources:
