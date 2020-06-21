@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/ippei-fukamatsu/lp-system-api.git",
   "author": "Ippei Fukamatsu <ippei.fukamatsu@yume-lab.co.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-on-serverless": "^0.1.1"
+  }
 }
