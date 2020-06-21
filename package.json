@@ -1,0 +1,8 @@
+{
+  "name": "lp-system-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ippei-fukamatsu/lp-system-api.git",
+  "author": "Ippei Fukamatsu <ippei.fukamatsu@yume-lab.co.jp>",
+  "license": "MIT"
+}
