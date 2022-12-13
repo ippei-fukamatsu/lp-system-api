@@ -6,7 +6,7 @@
   "author": "Ippei Fukamatsu <ippei.fukamatsu@yume-lab.co.jp>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-on-serverless": "^0.1.1"
   }
 }
